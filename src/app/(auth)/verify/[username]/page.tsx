@@ -27,7 +27,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { REGEXP_ONLY_DIGITS_AND_CHARS } from "input-otp";
 
-const page = ({ params }: { params: { username: string } }) => {
+const Page = ({ params }: { params: { username: string } }) => {
   const router = useRouter();
   const { username } = params;
   const { toast } = useToast();
@@ -125,4 +125,4 @@ const page = ({ params }: { params: { username: string } }) => {
   );
 };
 
-export default page;
+export default Page;

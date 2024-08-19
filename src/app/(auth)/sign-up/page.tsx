@@ -23,7 +23,7 @@ import { Input } from "@/components/ui/input";
 import { Loader2 } from "lucide-react";
 import GradientButton from "@/components/edil-ozi/gradient-button";
 
-const page = () => {
+const Page = () => {
   // Stores the username from the form because it has to be debounced
   const [username, setUsername] = useState("");
 
@@ -204,4 +204,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

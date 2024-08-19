@@ -19,7 +19,7 @@ import { Separator } from "@/components/ui/separator";
 import { Loader2, RefreshCcw, X } from "lucide-react";
 import { MagicCard } from "@/components/magicui/magic-card";
 
-const page = () => {
+const Page = () => {
   const [messages, setMessages] = useState<Message[]>([]);
   const [areMessagesLoading, setAreMessagesLoading] = useState(false);
   const [isSwitchLoading, setIsSwitchLoading] = useState(false);
@@ -253,4 +253,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
