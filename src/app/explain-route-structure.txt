@@ -1,0 +1,14 @@
+NEXT JS ROUTING SCHEME #101
+
+- Simple auth folder then a new route is created called /auth
+
+- If a folder is present with parenthesis like (auth), then it doesn't create a new route, 
+  it is just used for logical grouping of different routes into a folder for programmer's ease.
+  Eg: Different folders like /sign-in, /sign-up can be put under (auth)
+
+- If a folder is created with lets say products/[id] then it becomes a dynamic route.
+  By using const router = useRouter() and inside router.query we can extract the {id}.
+
+- If a folder is created as [...nextauth] for eg, then it is a catch-all dynamic route which is used for setting options usually.
+  What this means is that routes like /nextauth/login or /nextauth/login/profile everything will go through here.
+  By using const router = useRouter() and inside router.query we can extract the {nextauth} value as well.
