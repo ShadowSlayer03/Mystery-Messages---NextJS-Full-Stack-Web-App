@@ -76,7 +76,7 @@ Ensure you have the following installed on your machine:
 
 ### Live Preview
 
-A live preview of this website is hosted at [https://mystery-messages.vercel.app](https://mystery-messages.vercel.app)
+A live preview of this website is hosted at [https://mystery-messages-arj.vercel.app](https://mystery-messages-arj.vercel.app)
 
 ### Contributing
 
