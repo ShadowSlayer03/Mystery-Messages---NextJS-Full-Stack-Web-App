@@ -235,14 +235,17 @@ const Page = () => {
         {messages?.length > 0 ? (
           messages?.map((message, index) => (
             <MagicCard
+              key={index}
               className="cursor-pointer flex-col items-center justify-center shadow-2xl whitespace-nowrap text-4xl h-[200px]"
               gradientColor="whitesmoke"
               gradientSize={100}
               gradientOpacity={0.4}
-              onClickFn={()=>handleDeleteMessage(message._id as string)}
+              onClickFn={() => handleDeleteMessage(message._id as string)}
               isDeleting={isDeleting}
             >
-              <span className="inline-block text-lg max-w-[60%]">{message.content}</span>
+              <span className="inline-block text-lg max-w-[60%]">
+                {message.content}
+              </span>
             </MagicCard>
           ))
         ) : (
