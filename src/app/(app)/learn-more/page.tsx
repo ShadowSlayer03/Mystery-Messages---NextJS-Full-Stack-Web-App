@@ -46,6 +46,14 @@ const LearnMore = () => {
         >
           <Icons.reactHookForms />
         </OrbitingCircles>
+        <OrbitingCircles
+          className="size-[50px] border-none"
+          duration={20}
+          delay={15}
+          radius={85}
+        >
+          <Icons.resend />
+        </OrbitingCircles>
 
         {/* 2nd Orbit (Middle Circle) */}
         <OrbitingCircles
@@ -67,7 +75,7 @@ const LearnMore = () => {
 
         {/* 3rd Orbit (Outer Circle) */}
         <OrbitingCircles
-          className="size-[50px] border-none bg-transparent"
+          className="size-[50px] border bg-transparent"
           radius={200}
           duration={30}
           delay={5}
@@ -243,6 +251,19 @@ const Icons = {
       <path
         fill="white"
         d="M22.219 11.784L11.784 22.219a1.045 1.045 0 0 0 1.476 1.476L23.695 13.26a1.045 1.045 0 0 0-1.476-1.476M20.132.305L.305 20.132a1.045 1.045 0 0 0 1.476 1.476L21.608 1.781A1.045 1.045 0 0 0 20.132.305"
+      ></path>
+    </svg>
+  ),
+  resend: () => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="1em"
+      height="1em"
+      viewBox="0 0 24 24"
+    >
+      <path
+        fill="white"
+        d="M2.023 0v24h5.553v-8.434h2.998L15.326 24h6.65l-5.372-9.258a7.652 7.652 0 0 0 3.316-3.016c.709-1.21 1.062-2.57 1.062-4.08c0-1.462-.353-2.767-1.062-3.91c-.709-1.165-1.692-2.079-2.95-2.742C15.737.331 14.355 0 12.823 0Zm5.553 4.87h4.219c.731 0 1.349.125 1.851.376c.526.252.925.618 1.2 1.098c.274.457.412.994.412 1.611S15.132 9.12 14.88 9.6c-.229.48-.572.856-1.03 1.13c-.434.252-.948.38-1.542.38H7.576Z"
       ></path>
     </svg>
   ),
