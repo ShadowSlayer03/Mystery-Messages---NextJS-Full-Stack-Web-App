@@ -16,6 +16,7 @@ Mystery Messages is a full-stack application that allows users to send anonymous
 
 - **Frontend:**
   - [Next.js](https://nextjs.org/) - The React Framework for Production.
+  - [TypeScript](https://www.typescriptlang.org/) - A strongly typed programming language that builds on JavaScript, providing better tooling and type safety.
   - [ShadCN](https://shadcn.dev/) - UI components library.
   - [Magic UI](https://magic-ui.dev/) - A design system for beautiful interfaces.
   - [React Hook Forms](https://react-hook-form.com/) - Performant, flexible, and extensible forms with easy-to-use validation.
@@ -26,7 +27,10 @@ Mystery Messages is a full-stack application that allows users to send anonymous
   - [Bcrypt](https://www.npmjs.com/package/bcrypt) - A library to help you hash passwords.
   - [JWT (JSON Web Tokens)](https://jwt.io/) - For securely transmitting information between the frontend and backend.
   - [Gemini API](https://gemini.com/) - Third-party API for enhanced app functionality.
-  
+
+- **Authentication:**
+  - [NextAuth.js](https://next-auth.js.org/) - A complete authentication solution for Next.js applications, offering support for multiple providers, secure session management, and easy customization.
+
 - **Database:**
   - [MongoDB](https://www.mongodb.com/) - NoSQL database for storing user data and messages.
   - [Mongoose](https://mongoosejs.com/) - Elegant MongoDB object modeling for Node.js.
