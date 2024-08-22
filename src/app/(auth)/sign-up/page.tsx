@@ -62,7 +62,7 @@ const Page = () => {
           const result = await axios.get(
             `/api/check-username?username=${username}`
           );
-          console.log("Result of Sign In:", result.data);
+          // console.log("Result of Sign In:", result.data);
           setUsernameMessage(result.data.message);
         } catch (error) {
           const axiosError = error as AxiosError<ApiResponse>;
@@ -79,11 +79,11 @@ const Page = () => {
   }, [username]);
 
   async function onSubmit(values: z.infer<typeof signUpZodSchema>) {
-    console.log("Values from SignUp Form on submitting:", values);
+    // console.log("Values from SignUp Form on submitting:", values);
     setIsSubmitting(true);
     try {
       const result = await axios.post("/api/sign-up", values);
-      console.log("Result from SignUp Submission", result.data);
+      // console.log("Result from SignUp Submission", result.data);
 
       if (result.data.success) {
         toast({

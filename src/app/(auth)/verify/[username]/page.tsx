@@ -96,18 +96,19 @@ const Page = ({ params }: { params: { username: string } }) => {
                     <InputOTP
                       color="black"
                       maxLength={8}
+                      inputMode="text"
                       pattern={REGEXP_ONLY_DIGITS_AND_CHARS}
                       {...field}
                     >
                       <InputOTPGroup className="text-black">
-                        <InputOTPSlot index={0} inputMode="text" />
-                        <InputOTPSlot index={1} inputMode="text" />
-                        <InputOTPSlot index={2} inputMode="text" />
-                        <InputOTPSlot index={3} inputMode="text" />
-                        <InputOTPSlot index={4} inputMode="text" />
-                        <InputOTPSlot index={5} inputMode="text" />
-                        <InputOTPSlot index={6} inputMode="text" />
-                        <InputOTPSlot index={7} inputMode="text" />
+                        <InputOTPSlot index={0} />
+                        <InputOTPSlot index={1} />
+                        <InputOTPSlot index={2} />
+                        <InputOTPSlot index={3} />
+                        <InputOTPSlot index={4} />
+                        <InputOTPSlot index={5} />
+                        <InputOTPSlot index={6} />
+                        <InputOTPSlot index={7} />
                       </InputOTPGroup>
                     </InputOTP>
                   </FormControl>
