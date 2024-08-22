@@ -100,14 +100,14 @@ const Page = ({ params }: { params: { username: string } }) => {
                       {...field}
                     >
                       <InputOTPGroup className="text-black">
-                        <InputOTPSlot index={0} />
-                        <InputOTPSlot index={1} />
-                        <InputOTPSlot index={2} />
-                        <InputOTPSlot index={3} />
-                        <InputOTPSlot index={4} />
-                        <InputOTPSlot index={5} />
-                        <InputOTPSlot index={6} />
-                        <InputOTPSlot index={7} />
+                        <InputOTPSlot index={0} inputMode="text" />
+                        <InputOTPSlot index={1} inputMode="text" />
+                        <InputOTPSlot index={2} inputMode="text" />
+                        <InputOTPSlot index={3} inputMode="text" />
+                        <InputOTPSlot index={4} inputMode="text" />
+                        <InputOTPSlot index={5} inputMode="text" />
+                        <InputOTPSlot index={6} inputMode="text" />
+                        <InputOTPSlot index={7} inputMode="text" />
                       </InputOTPGroup>
                     </InputOTP>
                   </FormControl>
